@@ -1,0 +1,474 @@
+{
+  "selected_model": "random_forest",
+  "n_records": 303,
+  "prevalence": 0.459,
+  "oof": {
+    "roc_auc": 0.916,
+    "avg_precision": 0.91,
+    "brier": 0.12,
+    "roc_auc_ci95": [
+      0.884,
+      0.945
+    ]
+  },
+  "per_model_oof": {
+    "dummy_most_frequent": {
+      "roc_auc": 0.5,
+      "avg_precision": 0.459,
+      "brier": 0.459
+    },
+    "logistic_regression": {
+      "roc_auc": 0.915,
+      "avg_precision": 0.913,
+      "brier": 0.114
+    },
+    "random_forest": {
+      "roc_auc": 0.916,
+      "avg_precision": 0.91,
+      "brier": 0.12
+    },
+    "gradient_boosting": {
+      "roc_auc": 0.895,
+      "avg_precision": 0.883,
+      "brier": 0.131
+    }
+  },
+  "thresholds": [
+    {
+      "threshold": 0.05,
+      "tn": 19,
+      "fp": 145,
+      "fn": 0,
+      "tp": 139,
+      "precision": 0.489,
+      "recall": 1.0,
+      "specificity": 0.116,
+      "f1": 0.657,
+      "accuracy": 0.521
+    },
+    {
+      "threshold": 0.1,
+      "tn": 46,
+      "fp": 118,
+      "fn": 1,
+      "tp": 138,
+      "precision": 0.539,
+      "recall": 0.993,
+      "specificity": 0.28,
+      "f1": 0.699,
+      "accuracy": 0.607
+    },
+    {
+      "threshold": 0.15,
+      "tn": 58,
+      "fp": 106,
+      "fn": 1,
+      "tp": 138,
+      "precision": 0.566,
+      "recall": 0.993,
+      "specificity": 0.354,
+      "f1": 0.721,
+      "accuracy": 0.647
+    },
+    {
+      "threshold": 0.2,
+      "tn": 79,
+      "fp": 85,
+      "fn": 2,
+      "tp": 137,
+      "precision": 0.617,
+      "recall": 0.986,
+      "specificity": 0.482,
+      "f1": 0.759,
+      "accuracy": 0.713
+    },
+    {
+      "threshold": 0.25,
+      "tn": 93,
+      "fp": 71,
+      "fn": 5,
+      "tp": 134,
+      "precision": 0.654,
+      "recall": 0.964,
+      "specificity": 0.567,
+      "f1": 0.779,
+      "accuracy": 0.749
+    },
+    {
+      "threshold": 0.3,
+      "tn": 109,
+      "fp": 55,
+      "fn": 13,
+      "tp": 126,
+      "precision": 0.696,
+      "recall": 0.906,
+      "specificity": 0.665,
+      "f1": 0.787,
+      "accuracy": 0.776
+    },
+    {
+      "threshold": 0.35,
+      "tn": 114,
+      "fp": 50,
+      "fn": 15,
+      "tp": 124,
+      "precision": 0.713,
+      "recall": 0.892,
+      "specificity": 0.695,
+      "f1": 0.792,
+      "accuracy": 0.785
+    },
+    {
+      "threshold": 0.4,
+      "tn": 126,
+      "fp": 38,
+      "fn": 17,
+      "tp": 122,
+      "precision": 0.762,
+      "recall": 0.878,
+      "specificity": 0.768,
+      "f1": 0.816,
+      "accuracy": 0.818
+    },
+    {
+      "threshold": 0.45,
+      "tn": 134,
+      "fp": 30,
+      "fn": 22,
+      "tp": 117,
+      "precision": 0.796,
+      "recall": 0.842,
+      "specificity": 0.817,
+      "f1": 0.818,
+      "accuracy": 0.828
+    },
+    {
+      "threshold": 0.5,
+      "tn": 142,
+      "fp": 22,
+      "fn": 28,
+      "tp": 111,
+      "precision": 0.835,
+      "recall": 0.799,
+      "specificity": 0.866,
+      "f1": 0.816,
+      "accuracy": 0.835
+    },
+    {
+      "threshold": 0.55,
+      "tn": 149,
+      "fp": 15,
+      "fn": 35,
+      "tp": 104,
+      "precision": 0.874,
+      "recall": 0.748,
+      "specificity": 0.909,
+      "f1": 0.806,
+      "accuracy": 0.835
+    },
+    {
+      "threshold": 0.6,
+      "tn": 152,
+      "fp": 12,
+      "fn": 39,
+      "tp": 100,
+      "precision": 0.893,
+      "recall": 0.719,
+      "specificity": 0.927,
+      "f1": 0.797,
+      "accuracy": 0.832
+    },
+    {
+      "threshold": 0.65,
+      "tn": 155,
+      "fp": 9,
+      "fn": 47,
+      "tp": 92,
+      "precision": 0.911,
+      "recall": 0.662,
+      "specificity": 0.945,
+      "f1": 0.767,
+      "accuracy": 0.815
+    },
+    {
+      "threshold": 0.7,
+      "tn": 158,
+      "fp": 6,
+      "fn": 52,
+      "tp": 87,
+      "precision": 0.935,
+      "recall": 0.626,
+      "specificity": 0.963,
+      "f1": 0.75,
+      "accuracy": 0.809
+    },
+    {
+      "threshold": 0.75,
+      "tn": 161,
+      "fp": 3,
+      "fn": 65,
+      "tp": 74,
+      "precision": 0.961,
+      "recall": 0.532,
+      "specificity": 0.982,
+      "f1": 0.685,
+      "accuracy": 0.776
+    },
+    {
+      "threshold": 0.8,
+      "tn": 162,
+      "fp": 2,
+      "fn": 76,
+      "tp": 63,
+      "precision": 0.969,
+      "recall": 0.453,
+      "specificity": 0.988,
+      "f1": 0.618,
+      "accuracy": 0.743
+    },
+    {
+      "threshold": 0.85,
+      "tn": 163,
+      "fp": 1,
+      "fn": 92,
+      "tp": 47,
+      "precision": 0.979,
+      "recall": 0.338,
+      "specificity": 0.994,
+      "f1": 0.503,
+      "accuracy": 0.693
+    },
+    {
+      "threshold": 0.9,
+      "tn": 163,
+      "fp": 1,
+      "fn": 105,
+      "tp": 34,
+      "precision": 0.971,
+      "recall": 0.245,
+      "specificity": 0.994,
+      "f1": 0.391,
+      "accuracy": 0.65
+    },
+    {
+      "threshold": 0.95,
+      "tn": 164,
+      "fp": 0,
+      "fn": 121,
+      "tp": 18,
+      "precision": 1.0,
+      "recall": 0.129,
+      "specificity": 1.0,
+      "f1": 0.229,
+      "accuracy": 0.601
+    }
+  ],
+  "operating_points": {
+    "default_0.5": {
+      "threshold": 0.5,
+      "tn": 142,
+      "fp": 22,
+      "fn": 28,
+      "tp": 111,
+      "precision": 0.835,
+      "recall": 0.799,
+      "specificity": 0.866,
+      "f1": 0.816,
+      "accuracy": 0.835
+    },
+    "youden": {
+      "threshold": 0.527,
+      "tn": 147,
+      "fp": 17,
+      "fn": 30,
+      "tp": 109,
+      "precision": 0.865,
+      "recall": 0.784,
+      "specificity": 0.896,
+      "f1": 0.823,
+      "accuracy": 0.845
+    },
+    "recall_ge_90": {
+      "threshold": 0.31,
+      "tn": 109,
+      "fp": 55,
+      "fn": 13,
+      "tp": 126,
+      "precision": 0.696,
+      "recall": 0.906,
+      "specificity": 0.665,
+      "f1": 0.787,
+      "accuracy": 0.776
+    }
+  },
+  "calibration": {
+    "prob_pred": [
+      0.061,
+      0.189,
+      0.336,
+      0.532,
+      0.755,
+      0.924
+    ],
+    "prob_true": [
+      0.02,
+      0.1,
+      0.294,
+      0.52,
+      0.84,
+      0.98
+    ]
+  },
+  "subgroups": [
+    {
+      "attribute": "Sex",
+      "group": "Female",
+      "n": 97,
+      "prevalence": 0.258,
+      "roc_auc": 0.94,
+      "recall": 0.72,
+      "precision": 0.9,
+      "accuracy": 0.907
+    },
+    {
+      "attribute": "Sex",
+      "group": "Male",
+      "n": 206,
+      "prevalence": 0.553,
+      "roc_auc": 0.893,
+      "recall": 0.816,
+      "precision": 0.823,
+      "accuracy": 0.801
+    },
+    {
+      "attribute": "Age band",
+      "group": "<50",
+      "n": 87,
+      "prevalence": 0.299,
+      "roc_auc": 0.941,
+      "recall": 0.731,
+      "precision": 0.905,
+      "accuracy": 0.897
+    },
+    {
+      "attribute": "Age band",
+      "group": "50-59",
+      "n": 125,
+      "prevalence": 0.48,
+      "roc_auc": 0.913,
+      "recall": 0.8,
+      "precision": 0.8,
+      "accuracy": 0.808
+    },
+    {
+      "attribute": "Age band",
+      "group": "60+",
+      "n": 91,
+      "prevalence": 0.582,
+      "roc_auc": 0.875,
+      "recall": 0.83,
+      "precision": 0.846,
+      "accuracy": 0.813
+    },
+    {
+      "attribute": "Chest pain type",
+      "group": "Asymptomatic",
+      "n": 144,
+      "prevalence": 0.729,
+      "roc_auc": 0.913,
+      "recall": 0.905,
+      "precision": 0.888,
+      "accuracy": 0.847
+    },
+    {
+      "attribute": "Chest pain type",
+      "group": "Atypical angina",
+      "n": 50,
+      "prevalence": 0.18,
+      "roc_auc": 0.84,
+      "recall": 0.333,
+      "precision": 0.75,
+      "accuracy": 0.86
+    },
+    {
+      "attribute": "Chest pain type",
+      "group": "Non-anginal pain",
+      "n": 86,
+      "prevalence": 0.209,
+      "roc_auc": 0.863,
+      "recall": 0.611,
+      "precision": 0.647,
+      "accuracy": 0.849
+    },
+    {
+      "attribute": "Chest pain type",
+      "group": "Typical angina",
+      "n": 23,
+      "prevalence": 0.304,
+      "roc_auc": 0.554,
+      "recall": 0.286,
+      "precision": 0.4,
+      "accuracy": 0.652
+    }
+  ],
+  "errors": {
+    "false_negatives": 28,
+    "false_positives": 22,
+    "true_positives": 111,
+    "true_negatives": 142
+  },
+  "shap_ranking": [
+    {
+      "feature": "thal",
+      "mean_abs_shap": 0.1322
+    },
+    {
+      "feature": "ca",
+      "mean_abs_shap": 0.0822
+    },
+    {
+      "feature": "cp",
+      "mean_abs_shap": 0.0789
+    },
+    {
+      "feature": "exang",
+      "mean_abs_shap": 0.0486
+    },
+    {
+      "feature": "slope",
+      "mean_abs_shap": 0.0443
+    },
+    {
+      "feature": "sex",
+      "mean_abs_shap": 0.043
+    },
+    {
+      "feature": "oldpeak",
+      "mean_abs_shap": 0.0334
+    },
+    {
+      "feature": "thalach",
+      "mean_abs_shap": 0.0316
+    },
+    {
+      "feature": "age",
+      "mean_abs_shap": 0.0247
+    },
+    {
+      "feature": "restecg",
+      "mean_abs_shap": 0.0141
+    },
+    {
+      "feature": "chol",
+      "mean_abs_shap": 0.0136
+    },
+    {
+      "feature": "trestbps",
+      "mean_abs_shap": 0.0096
+    },
+    {
+      "feature": "fbs",
+      "mean_abs_shap": 0.0016
+    }
+  ]
+}

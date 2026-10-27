@@ -12,11 +12,17 @@ HIGH_MIN = 0.66
 
 
 def ensure_model():
-    """If model file is missing (e.g. fresh cloud checkout), train it (~20 s)."""
+    """Build any missing artefact (fresh cloud checkout safety net, ~1-2 min)."""
     if not config.MODEL_PATH.exists():
         from . import explain, train
         train.main()
         explain.main()
+    if not config.ANALYSIS_PATH.exists():
+        from . import analysis
+        analysis.main()
+    if not config.REPORT_MD.exists():
+        from . import report
+        report.main()
 
 
 def load_bundle():

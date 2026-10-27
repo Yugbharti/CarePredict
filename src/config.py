@@ -13,6 +13,11 @@ REPORT_DIR = ROOT / "reports"
 FIG_DIR = REPORT_DIR / "figures"
 COMPARISON_PATH = REPORT_DIR / "model_comparison.csv"
 MODEL_CARD_PATH = ROOT / "MODEL_CARD.md"
+ANALYSIS_PATH = MODEL_DIR / "analysis.json"
+OOF_CSV = REPORT_DIR / "oof_predictions.csv"
+SHAP_CSV = REPORT_DIR / "shap_table.csv"
+ERRORS_CSV = REPORT_DIR / "misclassified.csv"
+REPORT_MD = REPORT_DIR / "REPORT.md"
 
 DATA_URL = (
     "https://archive.ics.uci.edu/ml/machine-learning-databases/"
