@@ -1,0 +1,48 @@
+Rows: 303   Columns: 14
+
+Missing values per column:
+age         0
+sex         0
+cp          0
+trestbps    0
+chol        0
+fbs         0
+restecg     0
+thalach     0
+exang       0
+oldpeak     0
+slope       0
+ca          4
+thal        2
+target      0
+
+Target balance (proportion):
+target
+0    0.541
+1    0.459
+
+Sex distribution (1=male, 0=female):
+sex
+1.0    0.68
+0.0    0.32
+
+Age summary:
+count    303.0
+mean      54.4
+std        9.0
+min       29.0
+25%       48.0
+50%       56.0
+75%       61.0
+max       77.0
+
+Numeric feature summary:
+          age  trestbps    chol  thalach  oldpeak
+count  303.00    303.00  303.00   303.00   303.00
+mean    54.44    131.69  246.69   149.61     1.04
+std      9.04     17.60   51.78    22.88     1.16
+min     29.00     94.00  126.00    71.00     0.00
+25%     48.00    120.00  211.00   133.50     0.00
+50%     56.00    130.00  241.00   153.00     0.80
+75%     61.00    140.00  275.00   166.00     1.60
+max     77.00    200.00  564.00   202.00     6.20

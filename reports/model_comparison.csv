@@ -1,0 +1,5 @@
+model,deployable_tree_model,roc_auc_mean,roc_auc_std,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1_mean,f1_std
+dummy_most_frequent,False,0.5,0.0,0.541,0.006,0.0,0.0,0.0,0.0,0.0,0.0
+logistic_regression,False,0.902,0.015,0.855,0.024,0.873,0.062,0.81,0.062,0.837,0.026
+random_forest,True,0.897,0.03,0.797,0.026,0.788,0.053,0.774,0.087,0.776,0.035
+gradient_boosting,True,0.869,0.027,0.789,0.037,0.776,0.065,0.774,0.083,0.77,0.043
